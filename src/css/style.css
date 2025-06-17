@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: blueviolet;
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+.container{
+    background-color: aqua;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
